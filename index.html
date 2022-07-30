@@ -17,38 +17,17 @@
     <script src="script.js"></script>
   </head>
   <body class="container-fluid">
-    <button class="btn-menu" onclick="Menuzain()">
-      <img
-        src="https://cdn-icons-png.flaticon.com/512/56/56763.png"
-        alt="barras"
-        style="width: 30px"
-      />
+    <button class="btn-menu" onclick="menuDisplay()">
+      <img src="https://cdn-icons-png.flaticon.com/512/56/56763.png" alt="barras" style="width: 30px"/>
     </button>
-    <h1 style="text-align: center">Matérias</h1>
-    <hr />
+    <h1 style="text-align: center">Matérias</h1> <hr/>
 
-    <div
-      class="d-flex flex-column p-3 text-white bg-dark fixed-top col-6 col-md-4"
-      id="menu_lateral"
-    >
-      <button class="btn-menu" onclick="Menuzain()">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/56/56763.png"
-          alt="barras"
-          style="width: 30px"
-        />
+    <div class="d-flex flex-column p-3 text-white bg-dark fixed-top col-6 col-md-4" id="menu_lateral">
+      <button class="btn-menu" onclick="menuDisplay()">
+        <img src="https://cdn-icons-png.flaticon.com/512/56/56763.png" alt="barras" style="width: 30px"/>
       </button>
       <a
-        id="menu"
-        href="/"
-        class="
-          d-flex
-          align-items-center
-          mb-3 mb-md-0
-          me-md-auto
-          text-white text-decoration-none
-        "
-      >
+        id="menu" href="/" class=" d-flex align-items-center mb-3 mb-md- me-md- text-white text-decoration-none">
         <svg class="bi me-2" width="40" height="32">
           <use xlink:href="#bootstrap"></use>
         </svg>
@@ -58,72 +37,69 @@
       <hr />
       <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
-          <a
-            href="#"
-            id="culturaDigital"
-            class="nav-link text-white"
-            aria-current="page"
-          >
+          <button
+          onclick="checkDisciplina(0)" id="culturaDigital" class="nav-link text-white" aria-current="page">
             <svg class="bi me-2" width="16" height="16">
               <use xlink:href="#home"></use>
             </svg>
-            Cultura Digital
-          </a>
+            C. Digital
+          </button>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <button onclick="checkDisciplina(1)" class="nav-link text-white">
             <svg class="bi me-2" width="16" height="16">
               <use xlink:href="#speedometer2"></use>
             </svg>
             Matemática
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <button onclick="checkDisciplina(2)" class="nav-link text-white">
             <svg class="bi me-2" width="16" height="16">
               <use xlink:href="#table"></use>
             </svg>
-            Língua Portuguesa
-          </a>
+            L. Portuguesa
+          </button>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <button onclick="checkDisciplina(3)" class="nav-link text-white">
             <svg class="bi me-2" width="16" height="16">
               <use xlink:href="#grid"></use>
             </svg>
             Geografia
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <button onclick="checkDisciplina(4)" class="nav-link text-white">
             <svg class="bi me-2" width="16" height="16">
               <use xlink:href="#people-circle"></use>
             </svg>
             História
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <button onclick="checkDisciplina(5)" class="nav-link text-white">
             <svg class="bi me-2" width="16" height="16">
               <use xlink:href="#people-circle"></use>
             </svg>
             Física
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <button onclick="checkDisciplina(6)" class="nav-link text-white">
             <svg class="bi me-2" width="16" height="16">
               <use xlink:href="#people-circle"></use>
             </svg>
             Química
-          </a>
+          </button>
         </li>
       </ul>
       <hr />
     </div>
 
-    <div id="Conteudo" onclick="Menuzain2()">
-      <h1 id="title">Início</h1>
+    <div id="Conteudo" onclick="menuDisplay2()">
+      <h1 class="titulo">Início</h1>
+      <p></p>
     </div>
   </body>
   <!-- JavaScript Bundle with Popper -->
@@ -132,4 +108,5 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"
   ></script>
+  <script src="./conteudos.js"></script>
 </html>
