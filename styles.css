@@ -1,0 +1,16 @@
+#menu_lateral{
+  visibility: hidden;
+  min-width: auto;
+  min-height: 100%;
+}
+.btn-menu{
+  width: 50px;
+}
+#menu{
+  white-space: nowrap;
+  width: 120px;
+  margin-bottom: 0%;
+}
+#title{
+  text-align: center;
+}
