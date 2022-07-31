@@ -3,7 +3,10 @@
   min-height: 100%;
 }
 .btn-menu {
-  width: 50px;
+  width: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0ch;
+  border-radius: 80px;
 }
 .titulo {
   text-align: center;

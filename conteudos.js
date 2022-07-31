@@ -20,6 +20,9 @@ const conteudo = [
   {
     titulo: 'Química',
   },
+  {
+    titulo: 'Redes e Protocolos',
+  },
 ];
 
 function checkDisciplina(i){
