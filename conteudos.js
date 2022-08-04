@@ -2,6 +2,12 @@ const conteudo = [
   {
     titulo: 'cultura Digital',
     resumo: '',
+    links: [
+      {
+        l: 'https://cdn.jsdelivr.net/gh/GustavoPatussi/Trabalho-de-CD@main/AULA%2002%20-%20SISTEMAS%20OPERACIONAIS.pdf',
+        n: 'sistemas Operacionais',
+      },
+    ],
   },
   {
     titulo: 'Matemática',
