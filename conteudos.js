@@ -4,7 +4,7 @@ const conteudo = [
     resumo: '',
     links: [
       {
-        l: 'https://cdn.jsdelivr.net/gh/GustavoPatussi/Trabalho-de-CD@main/AULA%2002%20-%20SISTEMAS%20OPERACIONAIS.pdf',
+        l: 'https://cdn.jsdelivr.net/gh/GustavoPatussi/Trabalho-de-CD@main/Contents/SistemasOperacionais.pdf',
         n: 'sistemas Operacionais',
       },
     ],
