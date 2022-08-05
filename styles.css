@@ -8,3 +8,9 @@
   border: 0ch;
   border-radius: 80px;
 }
+.titulo{
+  text-align: center;
+}
+.btn:active{
+  background-color: black;
+}
