@@ -16,6 +16,12 @@ const conteudo = [
   {
     titulo: 'Língua Portuguesa',
     resumo: 'Dentre as áreas mais importantes da disciplina, estão: morfologia, que estuda as palavras isoladamente; sintaxe, responsável por estudar as palavras enquanto elementos de uma frase; e semântica, que estuda o significado das palavras e os sentidos que elas podem tomar de acordo com o contexto.',
+    links: [
+      {
+        l: 'https://www.diferenca.com/ditongo-tritongo-e-hiato-encontros-vocalicos/#:~:text=O%20ditongo%20ocorre%20quando%20se,duas%20vogais%20em%20s%C3%ADlabas%20diferentes.',
+        n: 'Ditongo, Tritongo e Hiato (web)',
+      },
+    ],
   },
   {
     titulo: 'Geografia',
@@ -35,7 +41,7 @@ const conteudo = [
   },
   {
     titulo: 'Redes e Protocolos',
-    resumo: '',
+    resumo: 'Redes de Computadores refere-se a interconexão por meio de um sistema de comunicação baseado em transmissões e protocolos de vários computadores com o objetivo de trocar informações, além de outros recursos. Essa conexão é chamada de estações de trabalho (nós, pontos ou dispositivos de rede).',
   },
 ];
 
