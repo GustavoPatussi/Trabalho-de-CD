@@ -19,6 +19,7 @@ function menuDisplay2() {
 function loadConteudo(elemento) {
   var divConteudo = document.getElementById('Conteudo');
   divConteudo.innerHTML = '';
+
   var txtTitulo = document.createElement('h1');
   txtTitulo.setAttribute('class', 'titulo');
   txtTitulo.innerText = elemento.titulo;
