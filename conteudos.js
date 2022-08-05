@@ -34,6 +34,12 @@ const conteudo = [
   {
     titulo: 'Física',
     resumo: 'Física (do grego antigo: φύσις physis "natureza") é a ciência que estuda a natureza e seus fenômenos em seus aspectos mais gerais. Analisa suas relações e propriedades, além de descrever e explicar a maior parte de suas consequências.',
+    links: [
+      {
+        l: 'https://cdn.jsdelivr.net/gh/GustavoPatussi/Trabalho-de-CD@main/Contents/Usinas_2a%20serie%20(1).pdf',
+        n: 'Usinas (PDF)',
+      },
+    ],
   },
   {
     titulo: 'Química',
