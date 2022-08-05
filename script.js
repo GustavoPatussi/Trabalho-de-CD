@@ -40,5 +40,4 @@ function loadConteudo(elemento) {
     }
   }
   
-  
 }

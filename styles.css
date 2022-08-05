@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(85, 97, 112);
+}
+
 #menu_lateral {
   visibility: hidden;
   min-height: 100%;
@@ -21,6 +25,11 @@
   text-align: center;
 }
 p{
-  font-size: 30px;
+  color: black;
+  font-size: 25px;
+  font-style: italic;
+}
+.links{
+  font-size: 20px;
   font-style: italic;
 }
